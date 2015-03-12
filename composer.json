@@ -1,0 +1,29 @@
+{
+	"name" : "raoul2000/yii2-slideout-widget",
+	"description" : "The SlideOut widget is a wrapper around the slideout.js plugin, a touch slideout navigation menu for your mobile web apps",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"widget",
+		"side",
+		"menu",
+		"scrolling",
+		"mobile"
+	],
+	"license" : "BSD-3-Clause",
+	"authors" : [{
+			"name" : "Raoul",
+			"email" : "raoul.boulard@gmail.com"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : "*",
+		"bower-asset/slideout" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"raoul2000\\widget\\slideout\\" : "src"
+		}
+	}
+}
