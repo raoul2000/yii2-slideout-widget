@@ -18,8 +18,7 @@
 		}
 	],
 	"require" : {
-		"yiisoft/yii2" : "*",
-		"bower-asset/slideout" : "*"
+		"yiisoft/yii2" : "*"
 	},
 	"autoload" : {
 		"psr-4" : {
